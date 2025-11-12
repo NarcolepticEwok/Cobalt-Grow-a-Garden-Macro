@@ -9,7 +9,7 @@ global uiNavKeybind := "\"
 global invNavKeybind := "``"
 
 ; Edit this to change what you want to be pinged for
-global pingList := ["Crimson Thorn","Zebrazinkle","Trinity Fruit", "Master Sprinkler", "Grandmaster Sprinkler", "Levelup Lollipop", "Bug Egg"]
+global pingList := ["Crimson Thorn", "Zebrazinkle", "Trinity Fruit", "Master Sprinkler", "Grandmaster Sprinkler", "Levelup Lollipop", "Bug Egg"]
 
 ; - Technical stuff below, no touchy! -
 
