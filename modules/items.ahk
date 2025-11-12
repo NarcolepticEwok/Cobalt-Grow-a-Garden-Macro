@@ -19,9 +19,9 @@ acLUT.plants.Push({ name: "Evo Apple 4", time: 40 })
 acLUT.gear := []
 acLUT.gear.Push({ name: "Lightning Rod", time: 45 })
 acLUT.gear.Push({ name: "Tanning Mirror", time: 45 })
-acLUT.gear.Push({ name: "Reclaimer", time: 25 })
+acLUT.gear.Push({ name: "Reclaimer", time: 30 })
 acLUT.gear.Push({ name: "Event Lantern", time: 0 })
-acLUT.gear.Push({ name: "Anti Bee Egg", time: 120 })
+acLUT.gear.Push({ name: "Anti Bee Egg", time: 125 })
 acLUT.gear.Push({ name: "Small Toy", time: 10 })
 acLUT.gear.Push({ name: "Small Treat", time: 10 })
 acLUT.gear.Push({ name: "Pet Pouch", time: 30 })
@@ -34,8 +34,8 @@ global seedItems := ["Carrot", "Strawberry", "Blueberry", "Buttercup", "Tomato",
 ; Edit this to change the gear
 global gearItems := ["Watering Can", "Basic Sprinkler", "Advanced Sprinkler",  "Godly Sprinkler","Master Sprinkler", "Grandmast Sprinkler", "Trowel", "Recall Wrench", "Medium Toy", "Pet Name Reroller", "Pet Lead", "Medium Treat",  "Magnifying Glass", "Cleaning Spray", "Cleansing Pet Shard", "Favorite Tool", "Harvest Tool", "Friendship Pot",   "Levelup Lollipop", "Trading Ticket"]
 
-global eventItems := ["Bloodred Mushroom", "Jack O Lantern", "Pumpkin", "Candy Cornflower", "Ghoul Root", "Chicken Feed", "Seer Vine", "Poison Apple", "Blood Orange"]
-global passItems := ["Prime Crate", "Egg Yolk Mat", "Silver Fertilizer", "Prime Seed Pack", "Levelup Lollipop", "Grow All", "Naval Wort"]
+global eventItems := ["Orange Delight", "Explorer's Compass", "Safari Crate", "Zebra Whistle", "Safari Egg", "Protea", "Lush Sprinkler", "Mini Container", "Safari Totem Charm", "Baobab", "Pet Shard JUMBO", "Safari Seed Pack", "Savannah Crate", "Gecko", "Hyena"]
+global passItems := ["Prime Crate", "Egg Yolk Mat", "Silver Fertilizer", "Prime Seed Pack", "Levelup Lollipop", "Grow All", "Wyrmvine"]
 
 ; Edit this to change the eggs
 global eggItems := ["Common Egg", "Uncommon Egg", "Rare Egg", "Legendary Egg", "Mythical Egg", "Jungle Egg", "Bug Egg"]
