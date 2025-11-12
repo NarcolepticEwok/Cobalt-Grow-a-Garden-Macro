@@ -107,15 +107,21 @@ EventRarity(Seed) {
     static rarityMap
     if (!IsObject(rarityMap)) {
         rarityMap := Object()
-        rarityMap ["Bloodred Mushroom"] := "Uncommon"
-        rarityMap ["Jack O Lantern"] := "Rare"
-        rarityMap ["Pumpkin"] := "Legendary"
-        rarityMap ["Candy Cornflower"] := "Legendary"
-        rarityMap ["Ghoul Root"] := "Legendary"
-        rarityMap ["Chicken Feed"] := "Mythical"
-        rarityMap ["Seer Vine"] := "Divine"
-        rarityMap ["Poison Apple"] := "Prismatic"
-        rarityMap ["Blood Orange"] := "Prismatic"
+        rarityMap ["Orange Delight"] := "Uncommon"
+        rarityMap ["Explorer's Compass"] := "Rare"
+	rarityMap ["Safari Crate"] := "Rare"
+        rarityMap ["Zebra Whistle"] := "Legendary"
+        rarityMap ["Safari Egg"] := "Legendary"
+        rarityMap ["Protea"] := "Legendary"
+        rarityMap ["Lush Sprinkler"] := "Mythical"
+        rarityMap ["Mini Container"] := "Mythical"
+        rarityMap ["Safari Totem Charm"] := "Divine"
+        rarityMap ["Baobab"] := "Divine"
+        rarityMap ["Pet Shard JUMBO"] := "Divine"
+        rarityMap ["Safari Seed Pack"] := "Legendary"
+        rarityMap ["Savannah Crate"] := "Legendary"
+        rarityMap ["Gecko"] := "Common"
+        rarityMap ["Hyena"] := "Uncommon"
 
     }
     return rarityMap.HasKey(Seed) ? rarityMap[Seed] : ""
@@ -131,7 +137,7 @@ PassRarity(Item) {
         rarityMap ["Prime Seed Pack"] := "Divine"
         rarityMap ["Levelup Lollipop"] := "Prismatic"
         rarityMap ["Grow All"] := "Prismatic"
-        rarityMap ["Naval Wort"] := "Prismatic"
+        rarityMap ["Wyrmvine"] := "Prismatic"
     }
     return rarityMap.HasKey(Item) ? rarityMap[Item] : ""
 }
