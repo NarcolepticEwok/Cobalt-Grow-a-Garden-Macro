@@ -30,7 +30,6 @@ SeedRarity(seed) {
         rarityMap["Romanesco"] := "Prismatic"
         rarityMap["Crimson Thorn"] := "Transcendent"
         rarityMap["Zebrazinkle"] := "Transcendent"
-        rarityMap["Trinity Fruit"] := "Transcendent"
 
     }
 
@@ -77,6 +76,7 @@ AutismIsMySuperpower(egg) {
         rarityMap["Mythical Egg"] := "MyEgg!"
         rarityMap ["Jungle Egg"] := "Jung"
         rarityMap["Bug Egg"] := "Buggy"
+	rarityMap["Gem Egg"] := "Prismatic"
 
     }
     return rarityMap.HasKey(egg) ? rarityMap[egg] : ""
