@@ -21,6 +21,7 @@ SeedRarity(seed) {
         rarityMap["Mushroom"] := "Divine"
         rarityMap["Pepper"] := "Divine"
         rarityMap["Cacao"] := "Divine"
+        rarityMap["Sunflower"] := "Divine"
         rarityMap["Beanstalk"] := "Prismatic"
         rarityMap["Ember Lily"] := "Prismatic"
         rarityMap["Sugar Apple"] := "Prismatic"
