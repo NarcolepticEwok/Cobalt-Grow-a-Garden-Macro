@@ -31,6 +31,7 @@ SeedRarity(seed) {
         rarityMap["Romanesco"] := "Prismatic"
         rarityMap["Crimson Thorn"] := "Transcendent"
         rarityMap["Zebrazinkle"] := "Transcendent"
+        rarityMap["Octobloom"] := "Transcendent"
 
     }
 
